@@ -1,0 +1,50 @@
+{
+  "name": "node",
+  "chef_environment": "_default",
+  "logstash":{
+     "server":{
+       "inputs": [
+         { "tcp": {
+            "type": "apache",
+            "port": "5959",
+            "format": "json_event" 
+         }   }
+         ],
+        "outputs":[
+          { "stdout" : { "debug" : true, "debug_format" : "json" }}
+         ]
+      }
+  },
+
+
+ "logstash" : {
+    "server" : { "install_rabbitmq" : false,
+                 "enable_embedded_es" : false
+               },
+    "kibana":{
+           "repo":"https://github.com/lusis/chef-kibana.git",
+           "branch":"5ae0ee5db76feb2facb618c2972a00f88425f395" 
+          }
+  },
+
+"elasticsearch" :{
+					"deb_url" : "https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.0.1.deb",
+					"deb_sha" : "d55dd2598d767b658fda4881b9c178d91f72775a"
+
+},
+"run_list":[
+
+			"recipe[vim]",
+			"recipe[apt]",
+			"recipe[java]",
+			"recipe[logstash]",
+			"recipe[erlang]",
+			"recipe[git]",
+			"recipe[php::module_curl]",
+			"recipe[elasticsearch::deb]",
+			"recipe[logstash::server]",
+			"recipe[kibana]",
+			"recipe[redis::install]"
+
+]
+}

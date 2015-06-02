@@ -1,0 +1,6 @@
+site :opscode
+cookbook 'logstash', git: 'https://github.com/lusis/chef-logstash.git'
+cookbook 'vim', git: 'https://github.com/opscode-cookbooks/vim.git'
+cookbook 'redis', git: 'https://github.com/miah/chef-redis.git'
+cookbook 'kibana', git: 'https://github.com/lusis/chef-kibana'
+cookbook 'elasticsearch', git: 'https://github.com/elasticsearch/cookbook-elasticsearch'

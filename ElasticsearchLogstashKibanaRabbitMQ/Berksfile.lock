@@ -1,0 +1,134 @@
+{
+  "sources": {
+    "logstash": {
+      "locked_version": "0.6.1",
+      "git": "https://github.com/lusis/chef-logstash.git",
+      "ref": "bd284e9edf44a37c303526f3e009df4fc7384c0f"
+    },
+    "vim": {
+      "locked_version": "1.0.2",
+      "git": "https://github.com/opscode-cookbooks/vim.git",
+      "ref": "88e8d018267d2cd5cfa3260ce55a0025f52dae6f"
+    },
+    "redis": {
+      "locked_version": "2.1.1",
+      "git": "https://github.com/miah/chef-redis.git",
+      "ref": "3a160224c601d011f455772c5df803a3752e736a"
+    },
+    "kibana": {
+      "locked_version": "1.2.1",
+      "git": "https://github.com/lusis/chef-kibana",
+      "ref": "5ae0ee5db76feb2facb618c2972a00f88425f395"
+    },
+    "elasticsearch": {
+      "locked_version": "0.3.7",
+      "git": "https://github.com/elasticsearch/cookbook-elasticsearch",
+      "ref": "82447d5c478b3d272d0c1ab85545ffb532e1c38b"
+    },
+    "yumrepo": {
+      "locked_version": "3.0.0"
+    },
+    "yum": {
+      "locked_version": "2.4.4"
+    },
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "apache2": {
+      "locked_version": "1.9.0"
+    },
+    "iptables": {
+      "locked_version": "0.12.0"
+    },
+    "logrotate": {
+      "locked_version": "1.5.0"
+    },
+    "pacman": {
+      "locked_version": "1.1.1"
+    },
+    "php": {
+      "locked_version": "1.3.14"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "xml": {
+      "locked_version": "1.2.0"
+    },
+    "mysql": {
+      "locked_version": "4.1.1"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "homebrew": {
+      "locked_version": "1.5.4"
+    },
+    "windows": {
+      "locked_version": "1.30.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.5"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.4"
+    },
+    "iis": {
+      "locked_version": "2.0.2"
+    },
+    "git": {
+      "locked_version": "2.10.0"
+    },
+    "dmg": {
+      "locked_version": "2.2.0"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "rbenv": {
+      "locked_version": "1.7.1"
+    },
+    "ohai": {
+      "locked_version": "2.0.0"
+    },
+    "python": {
+      "locked_version": "1.4.6"
+    },
+    "java": {
+      "locked_version": "1.19.2"
+    },
+    "ant": {
+      "locked_version": "1.0.2"
+    },
+    "ark": {
+      "locked_version": "0.5.0"
+    },
+    "rabbitmq": {
+      "locked_version": "2.4.0"
+    },
+    "erlang": {
+      "locked_version": "1.5.0"
+    },
+    "yum-erlang_solutions": {
+      "locked_version": "0.2.0"
+    },
+    "stunnel": {
+      "locked_version": "2.0.4"
+    },
+    "discovery": {
+      "locked_version": "0.2.2"
+    },
+    "nginx": {
+      "locked_version": "2.3.0"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.11.0"
+    },
+    "monit": {
+      "locked_version": "0.7.1"
+    }
+  }
+}
